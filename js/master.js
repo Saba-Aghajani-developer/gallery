@@ -33,6 +33,7 @@ _pic.forEach((item, index) => {
         _p = document.createElement('img')
         _p.style.width = '750px'
         _p.style.height = '500px'
+        _p.style.objectFit = 'cover'
         _p.style.borderRadius = '7PX'
         _p.setAttribute('src', _src)
         document.getElementsByClassName('click')[0].appendChild(_p)
