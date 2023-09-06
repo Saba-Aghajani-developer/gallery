@@ -31,8 +31,8 @@ _pic.forEach((item, index) => {
         document.getElementsByTagName('main')[0].style.display = 'none'
         document.getElementsByClassName('click')[0].style.display = 'flex'
         _p = document.createElement('img')
-        _p.style.width = '500px'
-        _p.style.height = '400px'
+        _p.style.width = '750px'
+        _p.style.height = '500px'
         _p.style.borderRadius = '7PX'
         _p.setAttribute('src', _src)
         document.getElementsByClassName('click')[0].appendChild(_p)
