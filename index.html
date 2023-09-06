@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        main {
+            width: 75%;
+            margin: 1vh auto;
+            background-color: #ffffff;
+            border-radius: 7px;
+            box-shadow: 0 0 20px 7px #d0bda0;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        .list {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pic {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0 30px 30px;
+        }
+
+        ul {
+            width: 50%;
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li {
+            width: 20%;
+            height: 60%;
+            list-style-type: none;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px;
+            border-radius: 7px;
+            cursor: pointer;
+            padding: 7px;
+            transition: .4s;
+            font-family: 'Phudu', cursive;
+        }
+
+        li:hover {
+            background-color: antiquewhite;
+        }
+
+        figure {
+            width: 230px;
+            height: 150px;
+            margin: 5px;
+        }
+
+        .pic>figure>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 7px;
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        .pic>figure>img:hover {
+            transform: scale(.8);
+        }
+
+        .click {
+            width: 100%;
+            height: 100vh;
+            background-color: #333;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #fig {
+            width: 500px;
+            height: 300px;
+        }
+
+        #fig>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+
+        span {
+            color: #ffffff;
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            transform: rotate(45deg);
+            display: none;
+            cursor: pointer;
+        }
+
+        .title {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-family: 'Phudu', cursive;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        h4 {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            /* padding: 10px 0; */
+            color: black;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            text-align: center;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>GALLERY</h1>
+    </div>
+    <main>
+        <div class="list">
+            <ul>
+                <li>ALL</li>
+                <li>Mountain</li>
+                <li>Jungle</li>
+                <li>Ocean</li>
+            </ul>
+        </div>
+        <div class="pic">
+            <figure>
+                <img src="img/m1.jpg" alt="" title="Mountain">
+            </figure>
+            <figure>
+                <img src="img/j1.jpg" alt="" title="Jungle">
+            </figure>
+            <figure>
+                <img src="img/o1.jpg" alt="" title="Ocean">
+            </figure>
+            <figure>
+                <img src="img/m2.jpg" alt="" title="Mountain">
+            </figure>
+            <figure>
+                <img src="img/j2.jpg" alt="" title="Jungle">
+            </figure>
+            <figure>
+                <img src="img/o2.jpg" alt="" title="Ocean">
+            </figure>
+            <figure>
+                <img src="img/m3.jpg" alt="" title="Mountain">
+            </figure>
+            </figure>
+            <figure>
+                <img src="img/j3.jpg" alt="" title="Jungle">
+            </figure>
+            </figure>
+            <figure>
+                <img src="img/o3.jpg" alt="" title="Ocean">
+            </figure>
+            </figure>
+            <figure>
+                <img src="img/m4.jpg" alt="" title="Mountain">
+            </figure>
+        </div>
+    </main>
+    <div class="click">
+        <span id="close"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                class="bi bi-plus-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+            </svg>
+        </span>
+    </div>
+    <h4>creat by saba</h4>
+</body>
+<script src="js/master.js">
+</script>
+
+</html>
