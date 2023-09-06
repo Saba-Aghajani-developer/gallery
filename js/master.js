@@ -38,6 +38,8 @@ _pic.forEach((item, index) => {
         document.getElementsByClassName('click')[0].appendChild(_p)
         document.getElementById('close').style.display = 'flex'
         document.getElementsByClassName('title')[0].style.display = 'none'
+        document.getElementsByTagName('h4')[0].style.display = 'none'
+
     })
     document.getElementById('close').addEventListener('click', () => {
         document.getElementsByTagName('main')[0].style.display = 'flex'
@@ -48,5 +50,6 @@ _pic.forEach((item, index) => {
         _p.style.width = '0px'
         _p.style.height = '0px'
         _p.setAttribute('src', null)
+        document.getElementsByTagName('h4')[0].style.display = 'flex'
     })
 })
