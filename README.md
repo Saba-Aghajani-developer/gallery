@@ -3,8 +3,6 @@
 ![Screenshot 1402-06-17 at 23 09 39](https://github.com/Saba-Aghajani-developer/gallery/assets/135870519/a46c05e5-637b-4c2c-a3fd-3740e27f5760)
 ![Screenshot 1402-06-17 at 23 09 45](https://github.com/Saba-Aghajani-developer/gallery/assets/135870519/74189d59-c646-4930-9bc2-c2cbe2c6712a)
 ![Screenshot 1402-06-17 at 23 10 00](https://github.com/Saba-Aghajani-developer/gallery/assets/135870519/cf6b0adb-a99f-4144-8a25-47e6cee7677e)
-![Screenshot 1402-06-17 at 23 10 00](https://github.com/Saba-Aghajani-developer/gallery/assets/135870519/cf6b0adb-a99f-4144-8a25-47e6cee7677e)
-
 
 
 - [Demo Project](https://saba-aghajani-developer.github.io/gallery/)
